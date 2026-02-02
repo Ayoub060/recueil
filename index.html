@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page HTML basique</title>
+  <style>
+    /* Styles simples pour mise en page */
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #222; }
+    header, footer { background:#f4f4f4; padding: 1rem; text-align:center; }
+    nav ul { list-style:none; padding:0; margin:0; display:flex; gap:1rem; justify-content:center; }
+    nav a { text-decoration:none; color:#007acc; }
+    main { padding: 1rem; max-width:900px; margin:0 auto; }
+    .hero { padding:2rem; background:#eef6ff; border-radius:8px; margin-bottom:1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mon site</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">À propos</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Bienvenue</h2>
+      <p>Ceci est une page HTML minimale pour démarrer un projet web.</p>
+    </section>
+
+    <section>
+      <h3>Contenu</h3>
+      <article>
+        <p>Ajoute ici ton texte, images, formulaires ou autres composants.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Mon site</p>
+  </footer>
+
+  <script>
+    // Petit script d'exemple
+    document.addEventListener('DOMContentLoaded', () => {
+      console.log('Page chargée');
+    });
+  </script>
+</body>
+</html>
