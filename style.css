@@ -1,72 +1,57 @@
-:root {
-  --bg: #ffffff;
-  --muted: #f4f6f8;
-  --primary: #007acc;
-  --text: #222;
-  --radius: 8px;
-  --max-width: 900px;
-  --gap: 1rem;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
 }
 
-*,
-*::before,
-*::after { box-sizing: border-box; }
-
-html, body {
-  height: 100%;
-  margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-  color: var(--text);
-  background: var(--bg);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+	overflow: hidden;
+	background: #f1c40f;
 }
 
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 1rem;
+.flipbook {
+    width: 1350px;
+    height: 800px;
 }
 
-/* Header / Nav */
-header {
-  background: var(--muted);
-  padding: 1rem 0;
-  border-bottom: 1px solid #e6e9ec;
+.flipbook .hard {
+    background: #c0392b !important;
+    color: #fff;
+    font-weight: bold;
+    border: none; 
 }
 
-header h1 { margin: 0; font-size: 1.25rem; text-align: center; }
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0.5rem 0 0;
-  display: flex;
-  gap: var(--gap);
-  justify-content: center;
-  flex-wrap: wrap;
+.flipbook .hard small{
+	font-style: italic;
+	font-weight: lighter;
+	opacity: 0.7;
+	font-size: 14px;
 }
 
-nav a {
-  color: var(--primary);
-  text-decoration: none;
-  padding: 0.35rem 0.5rem;
-  border-radius: 6px;
-  transition: background .15s ease, color .15s ease;
+.flipbook .page {
+    background: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
 }
 
-nav a:hover,
-nav a:focus {
-  background: rgba(0,122,204,0.08);
-  outline: none;
+.page img{
+	width: 70%;
+	object-fit: cover;
+	margin: auto;
 }
 
-/* Main content */
-main { padding: 1.25rem 0; }
-
-.hero {
-  background: linear-gradient(180deg, #eef6ff 0%, #f7fbff 100%);
-  padding: 1.5rem;
-  border-radius: var(--radius);
-  margin-bottom: 1rem;
-  box-shadow: 0 1px 2px rgba
+.flipbook .page small{
+	font-size: 14px;
+    margin-bottom: 10px;
+}
