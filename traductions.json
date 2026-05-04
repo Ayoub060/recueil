@@ -1,28 +1,28 @@
 {
-    "home": {
-        "fr": {
-            "title": "Recueil",
-            "titre": "Recueil",
-            "bouton": "Vivre l'expérience interactive",
-            "lien": "Regarder directement le documentaire",
-            "apropos": "À propos",
-            "mentions": "Mentions légales"
-        },
-        "en": {
-            "title": "Recueil - Experience",
-            "titre": "Recueil",
-            "bouton": "Live the interactive experience",
-            "lien": "Watch the documentary directly",
-            "apropos": "About",
-            "mentions": "Legal notices"
-        },
-        "kr": {
-            "title": "Recueil - 경험",
-            "titre": "Recueil",
-            "bouton": "인터랙티브 경험 즐기기",
-            "lien": "다큐멘터리 바로 보기",
-            "apropos": "소개",
-            "mentions": "법적 고지"
-        }
+  "home": {
+    "fr": {
+      "title": "Recueil",
+      "titre": "Recueil",
+      "bouton": "Vivre l'expérience interactive",
+      "lien": "Regarder directement le documentaire",
+      "apropos": "À propos",
+      "mentions": "Mentions légales"
+    },
+    "en": {
+      "title": "Recueil - Experience",
+      "titre": "Recueil",
+      "bouton": "Live the interactive experience",
+      "lien": "Watch the documentary directly",
+      "apropos": "About",
+      "mentions": "Legal notices"
+    },
+    "kr": {
+      "title": "Recueil - 경험",
+      "titre": "Recueil",
+      "bouton": "인터랙티브 경험 즐기기",
+      "lien": "다큐멘터리 바로 보기",
+      "apropos": "소개",
+      "mentions": "법적 고지"
     }
+  }
 }
