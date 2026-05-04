@@ -4,39 +4,44 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="style.css" />
-  <title>Pokemon Magazine</title>
+  <title>Recueil</title>
 </head>
 
 <body>
-  <div class="flipbook">
-    <div class="hard">Documentaire interactif <small>2026</small></div>
-    <div class="hard"></div>
-    <div>
-      <small>Lets Look At Some Amazing Pokemon ❤️</small>
-      <small>Gotta Catch 'Em All</small>
-    </div>
-    <div>
-      <img src="images/image 1.png" alt="" />
-      <small> Charmandar </small>
-    </div>
-    <div>
-      <img src="images/image 2.png" alt="" />
-      <small> Arbok </small>
-    </div>
-    <div>
-      <img src="images/image 3.jpg" alt="" />
-      <small> Pikachu </small>
-    </div>
-    <div class="hard"></div>
-    <div class="hard">Thank You <small>~ HankTheTank</small></div>
-  </div>
-
-  <script src="jquery.js"></script>
-  <script src="turn.js"></script>
-  <script>
-    $(".flipbook").turn();
-  </script>
+ 
+  <header>
+    <button class="son" id="btnSon">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#354523" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+        <line x1="23" y1="9" x2="17" y2="15"/>
+        <line x1="17" y1="9" x2="23" y2="15"/>
+      </svg>
+    </button>
+    <nav class="langues">
+      <a href="#" class="actif" >FR</a>
+      <span>/</span>
+      <a href="#">EN</a>
+      <span>/</span>
+      <a href="#">한국어</a>
+    </nav>
+  </header>
+ 
+  <main>
+    <h1 data-traduction="titre">Recueil</h1>
+    <h2 data-traduction="bouton">Vivre l'expérience interactive</h2>
+    <h3 data-traduction="lien">Regarder directement le documentaire</h3>
+  </main>
+ 
+  <footer>
+    <p data-traduction="apropos">À propos</p>
+    <span>—</span>
+    <p data-traduction="mentions">Mentions légales</p>
+  </footer>
+ 
 </body>
-
 </html>
