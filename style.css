@@ -1,121 +1,152 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
 }
 
 /* ── HEADER ── */
 header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.2rem 1.5rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
 }
- 
+
 .son {
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 0;
-    display: flex;
-    align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
 }
- 
+
 .langues {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-family: 'Instrument Sans', sans-serif;
-    font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
 }
- 
+
 .langues a {
-    color: #354523;
-    text-decoration: none;
+  color: #354523;
+  text-decoration: none;
 }
- 
+
 .langues a.actif {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
- 
+
 .langues a:not(.actif) {
-    color: #888888;
+  color: #888888;
 }
- 
+
 .langues span {
-    color: #888888;
+  color: #888888;
 }
 
 body {
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-color: #F5F2D6;
-    color: #354523;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
-    gap: 2rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: #f5f2d6;
+  color: #354523;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Instrument Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  gap: 2rem;
 }
 
 /* ── MAIN ── */
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 24px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
 }
 
 h1 {
-    font-family: 'Ovo', serif;
-    font-weight: 400;
-    font-size: 6.5rem;
-    line-height: 110%;
-    letter-spacing: 0%;
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-size: 12rem;
 }
 
-h2{
-    font-family: 'Instrument Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 110%;
-    letter-spacing: 0%;
-    border: 1px solid #354523;
-    border-radius: 999px;
-    padding: 14px 32px;
+a {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
 }
 
-h3{
-    font-family: 'Instrument Sans', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 110%;
-    letter-spacing: 0%;
+a.btn {
+  border: 1px solid #354523;
+  font-size: calc(20 / 16 * 1rem);
+  border-radius: 999px;
+  padding: 14px 32px;
 }
 
 /* ── FOOTER ── */
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    color: #354523;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #354523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 1rem 0;
 }
 
 footer p {
-    font-family: 'Instrument Sans', sans-serif;
-    font-weight: 400;
-    font-size: 0.9rem;
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.link {
+  position: relative;
+}
+
+.link::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #354523;
+  bottom: -2px;
+  display: block;
+  transition: all 0.2s ease-out;
+}
+
+.link:hover {
+  &::before {
+    width: 0%;
+    transition: all 0.2s ease-out;
+  }
 }
