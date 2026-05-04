@@ -52,12 +52,10 @@ header {
 }
 
 .langues a.actif {
-  text-decoration: underline;
-  text-underline-offset: 4px;
 }
 
-.langues a:not(.actif) {
-  color: #888888;
+.langues a:not(.actif)::before {
+    background-color: #888888;
 }
 
 .langues span {
@@ -87,6 +85,14 @@ main {
   align-items: center;
   gap: 24px;
   text-align: center;
+}
+
+h1.coreen {
+    font-family: 'Gowun Batang', serif;
+    font-weight: 400;
+    font-size: 208px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 h1 {
@@ -141,6 +147,7 @@ footer p {
   background-color: #354523;
   bottom: -2px;
   display: block;
+  right: 0;
   transition: all 0.2s ease-out;
 }
 

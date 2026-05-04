@@ -9,8 +9,8 @@
       "mentions": "Mentions légales"
     },
     "en": {
-      "title": "Recueil - Experience",
-      "titre": "Recueil",
+      "title": "Recueil - Collection",
+      "titre": "Collection",
       "bouton": "Live the interactive experience",
       "lien": "Watch the documentary directly",
       "apropos": "About",
@@ -18,7 +18,7 @@
     },
     "kr": {
       "title": "Recueil - 경험",
-      "titre": "Recueil",
+      "titre": "실상사",
       "bouton": "인터랙티브 경험 즐기기",
       "lien": "다큐멘터리 바로 보기",
       "apropos": "소개",
