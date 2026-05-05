@@ -71,6 +71,10 @@ header {
 body {
   overflow: hidden;
   background-color: #f5f2d6;
+  background-image: url('background.png');
+  background-size: 100vw auto;;               
+  background-position: center 72%;             
+  background-repeat: no-repeat;
   color: #354523;
   display: flex;
   flex-direction: column;
