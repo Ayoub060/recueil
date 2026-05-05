@@ -2,7 +2,7 @@ let traductions = {};
 
 // Détecte automatiquement la page depuis le nom du fichier HTML
 const fichier = window.location.pathname.split('/').pop().replace('.html', '').replace('#', '');
-const PAGE = fichier === '' ? 'home' : fichier;
+const PAGE = fichier === '' ? 'index' : fichier;
 
 fetch('traductions.json')
   .then(res => res.json())
