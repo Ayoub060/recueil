@@ -17,12 +17,26 @@
       "mentions": "Legal notices"
     },
     "kr": {
-      "title": "Recueil - 경험",
-      "titre": "실상사",
+      "title": "Recueil - 그물코",
+      "titre": "그물코",
       "bouton": "인터랙티브 경험 즐기기",
       "lien": "다큐멘터리 바로 보기",
       "apropos": "소개",
       "mentions": "법적 고지"
+    }
+  },
+  "documentaire": {
+    "fr": {
+      "title": "Documentaire — Recueil",
+      "retour": "← Retour"
+    },
+    "en": {
+      "title": "Documentary — Recueil",
+      "retour": "← Back"
+    },
+    "kr": {
+      "title": "다큐멘터리 — Recueil",
+      "retour": "← 돌아가기"
     }
   }
 }
