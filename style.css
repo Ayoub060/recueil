@@ -73,7 +73,7 @@ body {
   background-color: #f5f2d6;
   background-image: url('background.png');
   background-size: 100vw auto;;               
-  background-position: center 72%;             
+  background-position: center 77%;             
   background-repeat: no-repeat;
   color: #354523;
   display: flex;
@@ -106,7 +106,7 @@ h1.coreen {
 h1 {
   font-family: "Ovo", serif;
   font-weight: 400;
-  font-size: 12rem;
+  font-size: 9rem;
 }
 
 a {
@@ -173,6 +173,7 @@ footer p {
   margin: 0;
   padding: 0;
   background-color: #000;
+  background-image: none;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
