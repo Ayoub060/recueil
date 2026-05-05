@@ -8,8 +8,30 @@ fetch('traductions.json')
   .then(res => res.json())
   .then(data => {
     traductions = data[PAGE];
-  });
 
+    // Appliquer la langue sauvegardée automatiquement
+    const langueSauvegardee = localStorage.getItem('langue') || 'fr';
+    const t = traductions[langueSauvegardee];
+    if (t) {
+      if (t.title) document.title = t.title;
+      document.querySelectorAll('[data-traduction]').forEach(elem => {
+        const cle = elem.getAttribute('data-traduction');
+        if (t[cle]) elem.textContent = t[cle];
+      });
+
+      // Mettre à jour la classe actif sur la bonne langue
+      document.querySelectorAll('.langues a').forEach(a => {
+        a.classList.remove('actif');
+        if (
+          a.textContent.trim() === langueSauvegardee.toUpperCase() ||
+          (langueSauvegardee === 'kr' && a.textContent.trim() === '한국어')
+        ) {
+          a.classList.add('actif');
+        }
+      });
+    }
+  }); 
+ 
 function changerLangue(langue, el) {
   const t = traductions[langue];
   if (!t) return;
@@ -23,6 +45,9 @@ function changerLangue(langue, el) {
 
   document.querySelectorAll('.langues a').forEach(a => a.classList.remove('actif'));
   el.classList.add('actif');
+
+  // Sauvegarder la langue choisie
+  localStorage.setItem('langue', langue);
 }
 
 // ── SON ──
