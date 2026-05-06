@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <script src="script/player.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/player.css" />
+    <title>Recueil - Documentaire entier</title>
+    <link rel="icon" type="image/x-icon" href="img/temple.png" />
+  </head>
+  <body class="documentaire-body">
+    <iframe
+      id="vimeoPlayer"
+      src="https://player.vimeo.com/video/1187426828"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+
+    <!-- overlay et bouton APRÈS l'iframe pour être par-dessus -->
+    <div class="overlay" id="overlay"></div>
+    <a
+      href="index.html"
+      class="btn-retour"
+      id="btnRetour"
+      data-traduction="retour"
+      >← Retour</a
+    >
+  </body>
+</html>

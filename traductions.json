@@ -5,24 +5,24 @@
       "titre": "Recueil",
       "bouton": "Vivre l'expérience interactive",
       "lien": "Regarder directement le documentaire",
-      "apropos": "À propos",
-      "mentions": "Mentions légales"
+      "a-propos": "À propos",
+      "mentions-legales": "Mentions légales"
     },
     "en": {
       "title": "Recueil - Collection",
       "titre": "Collection",
       "bouton": "Live the interactive experience",
       "lien": "Watch the documentary directly",
-      "apropos": "About",
-      "mentions": "Legal notices"
+      "a-propos": "About",
+      "mentions-legales": "Legal notices"
     },
     "kr": {
       "title": "Recueil - 그물코",
       "titre": "그물코",
       "bouton": "인터랙티브 경험 즐기기",
       "lien": "다큐멘터리 바로 보기",
-      "apropos": "소개",
-      "mentions": "법적 고지"
+      "a-propos": "소개",
+      "mentions-legales": "법적 고지"
     }
   },
   "documentaire": {
