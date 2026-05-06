@@ -86,3 +86,22 @@ if (btnPasser) {
     });
   }, 2000);
 }
+
+const vimeoPlayer = document.getElementById("vimeoPlayer");
+
+if (vimeoPlayer) {
+  const script = document.createElement("script");
+  script.src = "https://player.vimeo.com/api/player.js";
+  document.head.appendChild(script);
+
+  script.onload = () => {
+    const player = new Vimeo.Player(vimeoPlayer);
+
+    // Quand la vidéo se termine → rediriger vers map.html après 2 secondes
+    player.on("ended", () => {
+      setTimeout(() => {
+        window.location.href = "map.html";
+      }, 2000);
+    });
+  };
+}
