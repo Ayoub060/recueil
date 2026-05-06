@@ -55,3 +55,34 @@ if (btnRetour) {
     }, 2000);
   });
 }
+
+// PLAYER : bouton passer au mouvement de souris ──
+const btnPasser = document.getElementById("btnPasser");
+
+if (btnPasser) {
+  let hideTimerPasser;
+
+  // Caché au départ
+  btnPasser.classList.remove("visible");
+
+  setTimeout(() => {
+    document.addEventListener("mousemove", () => {
+      btnPasser.classList.add("visible");
+      clearTimeout(hideTimerPasser);
+      hideTimerPasser = setTimeout(() => {
+        btnPasser.classList.remove("visible");
+      }, 2000);
+    });
+
+    btnPasser.addEventListener("mouseenter", () => {
+      clearTimeout(hideTimerPasser);
+      btnPasser.classList.add("visible");
+    });
+
+    btnPasser.addEventListener("mouseleave", () => {
+      hideTimerPasser = setTimeout(() => {
+        btnPasser.classList.remove("visible");
+      }, 2000);
+    });
+  }, 2000);
+}
