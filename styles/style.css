@@ -160,3 +160,21 @@ footer a {
   bottom: 1rem;
   right: 1.5rem;
 }
+
+/* Par défaut : son ON visible, son OFF caché */
+.icon-son-on {
+  display: block;
+}
+
+.icon-son-off {
+  display: none;
+}
+
+/* Quand muted : son ON caché, son OFF visible */
+.son.muted .icon-son-on {
+  display: none;
+}
+
+.son.muted .icon-son-off {
+  display: block;
+}

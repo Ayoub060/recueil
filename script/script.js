@@ -100,3 +100,13 @@ if (btnSon) {
     }
   });
 }
+
+btnSon.addEventListener("click", () => {
+  sonActif = !sonActif;
+  btnSon.classList.toggle("muted"); // ← bascule l'icône
+  if (sonActif) {
+    // ... lecture
+  } else {
+    window.speechSynthesis.cancel();
+  }
+});
