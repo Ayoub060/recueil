@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  max-width: 100%;
+}
+
+.map-img,
+.map-link,
+.map-link-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-link {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+header {
+  z-index: 10;
+}
