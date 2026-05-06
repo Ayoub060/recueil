@@ -10,18 +10,21 @@
       rel="stylesheet"
     />
     <script src="script/script.js" defer></script>
+    <script src="script/player.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/top-fil.css" />
-    <link rel="stylesheet" href="styles/map.css" />
-    <title data-traduction="title">Recueil - Carte</title>
+    <link rel="stylesheet" href="styles/text.css" />
+    <title data-traduction="title">Recueil - Résidents : détails</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
   </head>
-  <body>
+  <body class="documentaire-body">
     <header>
       <nav class="fil">
         <a href="index.html" data-traduction="link-home">Accueil</a>
         <span>></span>
-        <p class="actif" data-traduction="map">Carte</p>
+        <a href="map.html" data-traduction="link-map">Carte</a>
+        <span>></span>
+        <p class="actif" data-traduction="map">Les résidents du village</p>
       </nav>
       <nav class="langues">
         <a href="#" class="actif" onclick="changerLangue('fr', this)">FR</a>
@@ -33,33 +36,37 @@
     </header>
 
     <main>
-      <img src="img/map-fr.jpg" alt="" class="map-img" />
-      <a href="player-residents.html" class="map-link map-link-residents"
-        ><img
-          src="img/map-residents.png"
-          data-traduction="alt-residents"
-          alt="En savoir plus sur les résidents du village"
-          class="map-link-img map-link-img-residents"
-      /></a>
+      <div class="hero">
+        <h1 data-traduction="h1">Les résidents du village</h1>
+        <a href="player-intro.html" data-traduction="btn-experience" class="btn"
+          >Voir la capsule documentaire</a
+        >
+      </div>
+      <div class="content">
+        <div class="context-text">
+          <h2>Blabla</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            distinctio magnam eaque quos mollitia nostrum quisquam animi
+            voluptatem molestiae. Minima ipsum rerum sit perferendis voluptate
+            sequi alias quam inventore natus.
+          </p>
+        </div>
+        <div class="context-img">
+          <img src="" alt="" />
+        </div>
+      </div>
     </main>
 
     <footer>
-      <div class="footer-links">
-        <a
-          href="a-propos.html"
-          data-traduction="
-        about"
-          class="link"
-          >À propos</a
-        >
-        <span>—</span>
-        <a
-          href="mentions-legales.html"
-          data-traduction="legal-notices"
-          class="link"
-          >Mentions légales</a
-        >
-      </div>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
+      <span>—</span>
+      <a
+        href="mentions-legales.html"
+        data-traduction="legal-notices"
+        class="link"
+        >Mentions légales</a
+      >
       <button class="son" id="btnSon">
         <svg
           width="20"

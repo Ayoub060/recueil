@@ -82,17 +82,17 @@
   "player-residents": {
     "fr": {
       "title": "Recueil - Résidents",
-      "back": "← Retour à la carte",
+      "back-map": "← Retour à la carte",
       "skip": "Passer la vidéo →"
     },
     "en": {
       "title": "",
-      "back": "",
+      "back-map": "",
       "skip": "Skip the video →"
     },
     "kr": {
       "title": "",
-      "back": "",
+      "back-map": "",
       "skip": "영상 건너뛰기 →"
     }
   }

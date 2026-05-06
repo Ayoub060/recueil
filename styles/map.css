@@ -29,18 +29,6 @@ main {
   top: 0;
 }
 
-header {
-  z-index: 10;
-  display: flex;
-  justify-content: space-between;
-}
-
-header nav {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .map-link-residents {
   top: calc(23% + var(--padding-main));
   left: 53%;

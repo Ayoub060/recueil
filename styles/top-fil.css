@@ -1,0 +1,11 @@
+header {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
