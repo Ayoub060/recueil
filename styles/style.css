@@ -70,22 +70,8 @@ header {
   padding: 1.2rem 1.5rem;
 }
 
-.son {
-  background: none;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  outline: none;
-  appearance: none;
-  -webkit-appearance: none;
-  box-shadow: none;
-  position: absolute;
-  bottom: 1rem;
-  right: 1.5rem;
+header .fil a {
+  color: #354523;
 }
 
 .langues {
@@ -121,6 +107,23 @@ header {
   color: #888888;
 }
 
+a {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+a.btn {
+  border: 1px solid #354523;
+  font-size: calc(20 / 16 * 1rem);
+  border-radius: 999px;
+  padding: 14px 32px;
+  background-color: #354523;
+  color: #f5f2d6;
+}
+
 /* ── FOOTER ── */
 footer {
   position: fixed;
@@ -130,7 +133,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem; 
+  gap: 1rem;
   padding: 1rem 1.5rem;
 }
 
@@ -138,4 +141,22 @@ footer a {
   font-family: "Instrument Sans", sans-serif;
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+.son {
+  background: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+  position: absolute;
+  bottom: 1rem;
+  right: 1.5rem;
 }

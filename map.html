@@ -17,6 +17,44 @@
   </head>
   <body>
     <header>
+      <nav class="fil">
+        <a href="index.html" data-traduction="link-home">Accueil</a>
+        <span>></span>
+        <p class="actif" data-traduction="map">Carte</p>
+      </nav>
+      <nav class="langues">
+        <a href="#" class="actif" onclick="changerLangue('fr', this)">FR</a>
+        <span>/</span>
+        <a href="#" onclick="changerLangue('en', this)">EN</a>
+        <span>/</span>
+        <a href="#" onclick="changerLangue('kr', this)">한국어</a>
+      </nav>
+    </header>
+
+    <main>
+      <img src="img/map-fr.jpg" alt="" class="map-img" />
+      <a href="player-residents.html" class="map-link map-link-residents"
+        ><img
+          src="img/map-residents.png"
+          data-traduction="alt-residents"
+          alt="En savoir plus sur les résidents du village"
+          class="map-link-img map-link-img-residents"
+      /></a>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="a-propos.html" data-traduction="a-propos" class="link"
+          >À propos</a
+        >
+        <span>—</span>
+        <a
+          href="mentions-legales.html"
+          data-traduction="mentions-legales"
+          class="link"
+          >Mentions légales</a
+        >
+      </div>
       <button class="son" id="btnSon">
         <svg
           width="20"
@@ -33,32 +71,6 @@
           <line x1="17" y1="9" x2="23" y2="15" />
         </svg>
       </button>
-      <nav class="langues">
-        <a href="#" class="actif link" onclick="changerLangue('fr', this)"
-          >FR</a
-        >
-        <span>/</span>
-        <a href="#" class="link" onclick="changerLangue('en', this)">EN</a>
-        <span>/</span>
-        <a href="#" class="link" onclick="changerLangue('kr', this)">한국어</a>
-      </nav>
-    </header>
-
-    <main>
-      <img src="img/map-fr.jpg" alt="" class="map-img" />
-      <a href="player-residents.html" class="map-link map-link-residents"
-        ><img
-          src="img/map-residents.png"
-          data-traduction="alt-residents"
-          alt="En savoir plus sur les résidents du village"
-          class="map-link-img map-link-img-residents"
-      /></a>
-    </main>
-
-    <footer>
-      <p data-traduction="apropos" class="link">À propos</p>
-      <span>—</span>
-      <p data-traduction="mentions" class="link">Mentions légales</p>
     </footer>
   </body>
 </html>

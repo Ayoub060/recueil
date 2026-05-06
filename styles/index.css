@@ -38,20 +38,3 @@ h1 {
   font-weight: 400;
   font-size: 9rem;
 }
-
-a {
-  font-family: "Instrument Sans", sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-a.btn {
-  border: 1px solid #354523;
-  font-size: calc(20 / 16 * 1rem);
-  border-radius: 999px;
-  padding: 14px 32px;
-  background-color: #354523;
-  color: #f5f2d6;
-}
