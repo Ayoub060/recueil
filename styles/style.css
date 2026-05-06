@@ -19,6 +19,20 @@ a {
   margin: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Ovo", serif;
+}
+
+body {
+  background-color: #f5fed7;
+  color: #354523;
+  font-family: "Instrument Sans", sans-serif;
+}
+
 .link {
   position: relative;
   cursor: pointer;
