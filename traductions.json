@@ -26,17 +26,8 @@
     }
   },
   "player-intro": {
-    "fr": {
-      "title": "Documentaire — Recueil",
-      "retour": "← Retour"
-    },
-    "en": {
-      "title": "Documentary — Recueil",
-      "retour": "← Back"
-    },
-    "kr": {
-      "title": "다큐멘터리 — Recueil",
-      "retour": "← 돌아가기"
-    }
-  }
+  "fr": { "retour": "← Retourner à l'accueil", "passer": "Passer la vidéo d'introduction →" },
+  "en": { "retour": "← Back to home", "passer": "Skip intro →" },
+  "kr": { "retour": "← 홈으로 돌아가기", "passer": "인트로 건너뛰기 →" }
+}
 }

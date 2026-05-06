@@ -55,3 +55,24 @@
   background: transparent;
   pointer-events: all;
 }
+
+.btn-passer {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 2.5rem;
+  z-index: 10;
+  font-family: "Instrument Sans", sans-serif;
+  font-size: 0.9rem;
+  color: #f5f2d6;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.btn-passer.visible {
+  opacity: 1;
+}
+
+.btn-passer::before {
+  background-color: #f5f2d6;
+}
