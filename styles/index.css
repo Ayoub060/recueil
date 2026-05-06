@@ -3,7 +3,7 @@ body {
   background-color: #f5fed7;
   background-image: url("../img/home-bg.jpg");
   background-size: 100% auto;
-  background-position: center calc(100% + 2rem);
+  background-position: center calc(100% + 4rem);
   background-repeat: no-repeat;
   color: #354523;
   display: flex;
