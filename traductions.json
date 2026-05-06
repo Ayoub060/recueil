@@ -52,17 +52,17 @@
     "fr": {
       "title": "Recueil - Vidéo d'introduction",
       "back": "← Retour à l'accueil",
-      "skip": "Passer la vidéo d'introduction →"
+      "skip": "Passer la vidéo →"
     },
     "en": {
       "title": "Harvest - Introduction Video",
       "back": "← Back to Home",
-      "skip": "Skip the introduction video →"
+      "skip": "Skip the video →"
     },
     "kr": {
       "title": "그물코 - 소개 영상",
       "back": "← 홈으로 돌아가기",
-      "skip": "소개 영상 건너뛰기 →"
+      "skip": "영상 건너뛰기 →"
     }
   },
   "player-full": {
