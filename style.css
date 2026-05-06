@@ -70,10 +70,10 @@ header {
 
 body {
   overflow: hidden;
-  background-color: #f5f2d6;
+  background-color: #f5fed7;
   background-image: url("img/home-bg.jpg");
-  background-size: 100vw auto;
-  background-position: center 77%;
+  background-size: 100%;
+  background-position: center 130%;
   background-repeat: no-repeat;
   color: #354523;
   display: flex;
