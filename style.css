@@ -147,6 +147,7 @@ footer p {
 
 .link {
   position: relative;
+  cursor: pointer;
 }
 
 .link::before {
