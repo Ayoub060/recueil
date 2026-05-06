@@ -12,7 +12,7 @@
     <script src="script/script.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/map.css" />
-    <title>Recueil - Carte</title>
+    <title data-traduction="title">Recueil - Carte</title>
     <link rel="icon" type="image/x-icon" href="img/temple.png" />
   </head>
   <body>
@@ -71,6 +71,32 @@
           <line x1="17" y1="9" x2="23" y2="15" />
         </svg>
       </button>
+      <nav class="langues">
+        <a href="#" class="actif link" onclick="changerLangue('fr', this)"
+          >FR</a
+        >
+        <span>/</span>
+        <a href="#" class="link" onclick="changerLangue('en', this)">EN</a>
+        <span>/</span>
+        <a href="#" class="link" onclick="changerLangue('kr', this)">한국어</a>
+      </nav>
+    </header>
+
+    <main>
+      <img src="img/map-fr.jpg" alt="" class="map-img" />
+      <a href="player-residents.html" class="map-link map-link-residents"
+        ><img
+          src="img/map-residents.png"
+          data-traduction="alt-residents"
+          alt="En savoir plus sur les résidents du village"
+          class="map-link-img map-link-img-residents"
+      /></a>
+    </main>
+
+    <footer>
+      <p data-traduction="about" class="link">À propos</p>
+      <span>—</span>
+      <p data-traduction="legal-notices" class="link">Mentions légales</p>
     </footer>
   </body>
 </html>
