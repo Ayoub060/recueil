@@ -78,5 +78,22 @@
       "title": "그물코 — 전체 다큐멘터리",
       "back": "← 홈으로 돌아가기"
     }
+  },
+  "player-residents": {
+    "fr": {
+      "title": "Recueil - Résidents",
+      "back": "← Retour à la carte",
+      "skip": "Passer la vidéo →"
+    },
+    "en": {
+      "title": "",
+      "back": "",
+      "skip": "Skip the video →"
+    },
+    "kr": {
+      "title": "",
+      "back": "",
+      "skip": "영상 건너뛰기 →"
+    }
   }
 }
