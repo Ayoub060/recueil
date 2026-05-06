@@ -27,3 +27,16 @@ main {
 header {
   z-index: 10;
 }
+
+.map-link-residents {
+  top: 22%;
+  left: 53%;
+  width: 16%;
+  opacity: 0.75;
+  transition: opacity 0.2s ease-out;
+}
+
+.map-link-residents:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+}
