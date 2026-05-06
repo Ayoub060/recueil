@@ -73,7 +73,7 @@ body {
   background-color: #f5fed7;
   background-image: url("img/home-bg.jpg");
   background-size: 100%;
-  background-position: center 130%;
+  background-position: bottom;
   background-repeat: no-repeat;
   color: #354523;
   display: flex;
