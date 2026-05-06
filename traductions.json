@@ -2,58 +2,78 @@
   "index": {
     "fr": {
       "title": "Recueil",
-      "titre": "Recueil",
-      "bouton": "Vivre l'expérience interactive",
-      "lien": "Regarder directement le documentaire",
-      "a-propos": "À propos",
-      "mentions-legales": "Mentions légales"
+      "h1": "Recueil",
+      "btn-experience": "Vivre l'expérience interactive",
+      "link-full": "Regarder directement le documentaire",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
     },
     "en": {
-      "title": "Recueil - Collection",
-      "titre": "Collection",
-      "bouton": "Live the interactive experience",
-      "lien": "Watch the documentary directly",
-      "a-propos": "About",
-      "mentions-legales": "Legal notices"
+      "title": "Harvest",
+      "h1": "Harvest",
+      "btn-experience": "Live the interactive experience",
+      "link-full": "Watch the full documentary",
+      "about": "About",
+      "legal-notices": "Legal notices"
     },
     "kr": {
       "title": "그물코",
-      "titre": "그물코",
-      "bouton": "인터랙티브 경험 즐기기",
-      "lien": "다큐멘터리 바로 보기",
-      "a-propos": "소개",
-      "mentions-legales": "법적 고지"
-    }
-  },
-  "player-intro": {
-    "fr": {
-      "title": "Documentaire — Recueil",
-      "retour": "← Retour"
-    },
-    "en": {
-      "title": "Documentary — Recueil",
-      "retour": "← Back"
-    },
-    "kr": {
-      "title": "그물코 - 다큐멘터리",
-      "retour": "← 돌아가기"
+      "h1": "그물코",
+      "btn-experience": "인터랙티브 체험하기",
+      "link-full": " 전체 다큐멘터리 보기",
+      "about": "소개",
+      "legal-notices": "법적 고지"
     }
   },
   "map": {
     "fr": {
       "title": "Recueil - Carte",
-      "retour": "← Retour",
-      "alt-residents": "En savoir plus sur les résidents du village"
+      "back": "← Retour à l'accueil",
+      "alt-residents": "En savoir plus sur les résidents du village",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
     },
     "en": {
-      "title": "Recueil - Map",
-      "retour": "← Back",
-      "alt-residents": "Learn more about the village residents"
+      "title": "Harvest - Map",
+      "back": "← Back to Home",
+      "alt-residents": "Learn more about the village residents",
+      "about": "About",
+      "legal-notices": "Legal notices"
     },
     "kr": {
-      "title": "그물코 - Carte",
-      "retour": "← 돌아가기",
-      "alt-residents": "마을 주민들에 대해 더 알아보기"
+      "title": "그물코 - 지도",
+      "back": "← 홈으로 돌아가기",
+      "alt-residents": "마을 주민들에 대해 더 알아보기",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
+  },
+  "player-intro": {
+    "fr": {
+      "title": "Documentaire — Recueil",
+      "back": "← Retour à l'accueil"
+    },
+    "en": {
+      "title": "Documentary — Harvest",
+      "back": "← Back to Home"
+    },
+    "kr": {
+      "title": "다큐멘터리 - 그물코",
+      "back": "← 홈으로 돌아가기"
+    }
+  },
+  "player-full": {
+    "fr": {
+      "title": "Documentaire entier — Recueil",
+      "back": "← Retour à l'accueil"
+    },
+    "en": {
+      "title": "Full Documentary — Harvest",
+      "back": "← Back to Home"
+    },
+    "kr": {
+      "title": "전체 다큐멘터리 - 그물코",
+      "back": "← 홈으로 돌아가기"
     }
   }
 }
