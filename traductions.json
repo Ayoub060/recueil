@@ -17,7 +17,7 @@
       "mentions-legales": "Legal notices"
     },
     "kr": {
-      "title": "Recueil - 그물코",
+      "title": "그물코",
       "titre": "그물코",
       "bouton": "인터랙티브 경험 즐기기",
       "lien": "다큐멘터리 바로 보기",
@@ -26,8 +26,34 @@
     }
   },
   "player-intro": {
-  "fr": { "retour": "← Retourner à l'accueil", "passer": "Passer la vidéo d'introduction →" },
-  "en": { "retour": "← Back to home", "passer": "Skip intro →" },
-  "kr": { "retour": "← 홈으로 돌아가기", "passer": "인트로 건너뛰기 →" }
-}
+    "fr": {
+      "title": "Documentaire — Recueil",
+      "retour": "← Retour"
+    },
+    "en": {
+      "title": "Documentary — Recueil",
+      "retour": "← Back"
+    },
+    "kr": {
+      "title": "그물코 - 다큐멘터리",
+      "retour": "← 돌아가기"
+    }
+  },
+  "map": {
+    "fr": {
+      "title": "Recueil - Carte",
+      "retour": "← Retour",
+      "alt-residents": "En savoir plus sur les résidents du village"
+    },
+    "en": {
+      "title": "Recueil - Map",
+      "retour": "← Back",
+      "alt-residents": "Learn more about the village residents"
+    },
+    "kr": {
+      "title": "그물코 - Carte",
+      "retour": "← 돌아가기",
+      "alt-residents": "마을 주민들에 대해 더 알아보기"
+    }
+  }
 }
