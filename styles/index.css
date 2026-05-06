@@ -21,20 +21,17 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 2rem;
   text-align: center;
-}
-
-h1.coreen {
-  font-family: "Gowun Batang", serif;
-  font-weight: 400;
-  font-size: 208px;
-  line-height: 100%;
-  letter-spacing: 0%;
 }
 
 h1 {
   font-family: "Ovo", serif;
   font-weight: 400;
   font-size: 9rem;
+}
+
+h1.coreen {
+  font-family: "Gowun Batang", serif;
+  line-height: 1.2;
 }
