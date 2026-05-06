@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  position: relative;
+  max-width: 100%;
+}
+
+.map-img,
+.map-link,
+.map-link-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-link {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+header {
+  z-index: 10;
+}
+
+.map-link-residents {
+  top: 22%;
+  left: 53%;
+  width: 16%;
+  opacity: 0.75;
+  transition: opacity 0.2s ease-out;
+}
+
+.map-link-residents:hover {
+  opacity: 1;
+  transition: opacity 0.2s ease-out;
+}
