@@ -1,0 +1,112 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a {
+  margin: 0;
+}
+
+/* ── HEADER ── */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.5rem;
+}
+
+.son {
+  background: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+
+.langues {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+}
+
+.langues a {
+  color: #354523;
+  text-decoration: none;
+}
+
+.langues a.actif {
+}
+
+.langues a:not(.actif)::before {
+  background-color: #888888;
+}
+
+.langues span {
+  color: #888888;
+}
+
+/* ── FOOTER ── */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #354523;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 1rem 0;
+}
+
+footer p {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.link {
+  position: relative;
+  cursor: pointer;
+}
+
+.link::before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  background-color: #354523;
+  bottom: -2px;
+  display: block;
+  right: 0;
+  transition: all 0.2s ease-out;
+}
+
+.link:hover {
+  &::before {
+    width: 0%;
+    transition: all 0.2s ease-out;
+  }
+}

@@ -11,13 +11,13 @@
     />
     <script src="script/script.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/index.css" />
-    <title>Recueil</title>
+    <link rel="stylesheet" href="styles/map.css" />
+    <title>Recueil - Carte</title>
     <link rel="icon" type="image/x-icon" href="img/temple.png" />
   </head>
   <body>
     <header>
-      <button class="son" id="btnSon">
+      <button class="son link" id="btnSon">
         <svg
           width="20"
           height="20"
@@ -34,35 +34,30 @@
         </svg>
       </button>
       <nav class="langues">
-        <a href="#" class="actif" onclick="changerLangue('fr', this)">FR</a>
+        <a href="#" class="actif link" onclick="changerLangue('fr', this)"
+          >FR</a
+        >
         <span>/</span>
-        <a href="#" onclick="changerLangue('en', this)">EN</a>
+        <a href="#" class="link" onclick="changerLangue('en', this)">EN</a>
         <span>/</span>
-        <a href="#" onclick="changerLangue('kr', this)">한국어</a>
+        <a href="#" class="link" onclick="changerLangue('kr', this)">한국어</a>
       </nav>
     </header>
 
     <main>
       <h1 data-traduction="titre">Recueil</h1>
-      <a href="map.html" data-traduction="bouton" class="btn"
+      <a href="" data-traduction="bouton" class="btn"
         >Vivre l'expérience interactive</a
       >
-      <a href="player-full.html" data-traduction="lien" class="link"
+      <a href="" data-traduction="lien" class="link"
         >Regarder directement le documentaire</a
       >
     </main>
 
     <footer>
-      <a href="a-propos.html" data-traduction="a-propos" class="link"
-        >À propos</a
-      >
+      <p data-traduction="apropos" class="link">À propos</p>
       <span>—</span>
-      <a
-        href="mentions-legales.html"
-        data-traduction="mentions-legales"
-        class="link"
-        >Mentions légales</a
-      >
+      <p data-traduction="mentions" class="link">Mentions légales</p>
     </footer>
   </body>
 </html>
