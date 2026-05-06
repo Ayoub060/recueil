@@ -61,7 +61,7 @@ header {
 }
 
 .langues a:not(.actif)::before {
-    background-color: #888888;
+  background-color: #888888;
 }
 
 .langues span {
@@ -71,9 +71,9 @@ header {
 body {
   overflow: hidden;
   background-color: #f5f2d6;
-  background-image: url('background.png');
-  background-size: 100vw auto;;               
-  background-position: center 77%;             
+  background-image: url("img/home-bg.jpg");
+  background-size: 100vw auto;
+  background-position: center 77%;
   background-repeat: no-repeat;
   color: #354523;
   display: flex;
@@ -96,11 +96,11 @@ main {
 }
 
 h1.coreen {
-    font-family: 'Gowun Batang', serif;
-    font-weight: 400;
-    font-size: 208px;
-    line-height: 100%;
-    letter-spacing: 0%;
+  font-family: "Gowun Batang", serif;
+  font-weight: 400;
+  font-size: 208px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 h1 {
@@ -179,7 +179,7 @@ footer p {
   width: 100vw;
   height: 100vh;
 }
- 
+
 .documentaire-body iframe {
   position: fixed;
   top: 0;
@@ -189,7 +189,7 @@ footer p {
   border: none;
   z-index: 1;
 }
- 
+
 .btn-retour {
   position: fixed;
   top: 1.5rem;
@@ -197,31 +197,31 @@ footer p {
   z-index: 10;
   font-family: "Instrument Sans", sans-serif;
   font-size: 0.9rem;
-  color: #f5f2d6;                        
+  color: #f5f2d6;
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.15); 
+  background-color: rgba(255, 255, 255, 0.15);
   padding: 8px 16px;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.4);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
- 
+
 .btn-retour.visible {
   opacity: 1;
 }
- 
+
 .hidden {
   display: none;
 }
- 
+
 /* ── OVERLAY pour capter le mousemove ── */
 .overlay {
   position: fixed;
   top: 0;
   left: 0;
-  width: 20vw;    /* ← zone du bouton en largeur */
-  height: 15vh;   /* ← zone du bouton en hauteur */
+  width: 20vw; /* ← zone du bouton en largeur */
+  height: 15vh; /* ← zone du bouton en hauteur */
   z-index: 5;
   background: transparent;
   pointer-events: all;
