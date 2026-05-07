@@ -65,6 +65,29 @@
       "skip": "영상 건너뛰기 →"
     }
   },
+  "after-intro": {
+    "fr": {
+      "title": "Recueil — Introduction",
+      "phrase1": "Sannae est une commune rurale située dans le parc national du Jirisan, en Corée du Sud.",
+      "phrase2": "Ici prend racine l’association Indra’s Net du temple bouddhiste Silsang-sa.",
+      "phrase3": " Partez à la rencontre de ses habitants en parcourant les lieux.",
+      "explore-btn": "Explorer →"
+    },
+    "en": {
+      "title": "Harvest — Introduction",
+      "phrase1": "Sannae is a rural commune located in Jirisan National Park, in South Korea.",
+      "phrase2": "Here, the Indra's Net association of the Buddhist temple Silsang-sa took root.",
+      "phrase3": "Go and meet its inhabitants by exploring the area.",
+      "explore-btn": "Explore →"
+    },
+    "kr": {
+      "title": "그물코 — 소개",
+      "phrase1": "산내는 대한민국 지리산 국립공원에 위치한 농촌 마을입니다.",
+      "phrase2": "이곳에는 실상사 불교 사찰의 인드라망 공동체가 자리하고 있습니다.",
+      "phrase3": "마을 곳곳을 거닐며 주민들을 만나보세요.",
+      "explore-btn": "탐험하기 →"
+    }
+  },
   "player-full": {
     "fr": {
       "title": "Recueil — Documentaire entier",

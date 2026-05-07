@@ -1,0 +1,60 @@
+.phrase1,
+.phrase2,
+.phrase3 {
+  opacity: 0;
+  transition: opacity 1s ease-out;
+  font-size: 2.2rem;
+  font-family: "Ovo", serif;
+  text-align: center;
+}
+
+.phrase1.coreen,
+.phrase2.coreen,
+.phrase3.coreen {
+  font-family: "Gowun Batang", serif;
+  line-height: 1.2;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  gap: 2rem;
+}
+
+.phrases {
+  max-width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-links {
+  display: none;
+}
+
+a.btn {
+  font-size: 1.2rem;
+}
+
+.phrases p,
+a.btn {
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+.phrases p.visible,
+a.btn.visible {
+  opacity: 1;
+}

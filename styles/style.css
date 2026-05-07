@@ -122,11 +122,12 @@ a.btn {
   padding: 1rem 2rem;
   background-color: #354523;
   color: #f5f2d6;
-  transition: background-color 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 a.btn:hover {
   background-color: #212c16;
+  transition: all 0.2s ease-out;
 }
 
 /* ── FOOTER ── */
