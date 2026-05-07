@@ -28,21 +28,24 @@
   "map": {
     "fr": {
       "title": "Recueil - Carte",
-      "back": "← Retour à l'accueil",
+      "link-home": "Accueil",
+      "map": "Carte",
       "alt-residents": "En savoir plus sur les résidents du village",
       "about": "À propos",
       "legal-notices": "Mentions légales"
     },
     "en": {
       "title": "Harvest - Map",
-      "back": "← Back to Home",
+      "link-home": "Home",
+      "map": "Map",
       "alt-residents": "Learn more about the village residents",
       "about": "About",
       "legal-notices": "Legal notices"
     },
     "kr": {
       "title": "그물코 - 지도",
-      "back": "← 홈으로 돌아가기",
+      "link-home": "홈",
+      "map": "지도",
       "alt-residents": "마을 주민들에 대해 더 알아보기",
       "about": "소개",
       "legal-notices": "법적 고지"
@@ -109,13 +112,13 @@
       "skip": "Passer la vidéo →"
     },
     "en": {
-      "title": "",
-      "back-map": "",
+      "title": "Harvest - Residents",
+      "back-map": "← Back to Map",
       "skip": "Skip the video →"
     },
     "kr": {
-      "title": "",
-      "back-map": "",
+      "title": "그물코 - 주민들",
+      "back-map": "← 지도로 돌아가기",
       "skip": "영상 건너뛰기 →"
     }
   }
