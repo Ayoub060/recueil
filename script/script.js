@@ -67,6 +67,11 @@ function changerLangue(langue, el) {
     }
   }
 
+  document.querySelectorAll(".phrases p").forEach((p) => {
+    if (langue === "kr") p.classList.add("coreen");
+    else p.classList.remove("coreen");
+  });
+
   document
     .querySelectorAll(".langues a")
     .forEach((a) => a.classList.remove("actif"));
@@ -79,27 +84,27 @@ function changerLangue(langue, el) {
 // ── SON ──
 let sonActif = false;
 const btnSon = document.getElementById("btnSon");
-if (btnSon) {
-  btnSon.addEventListener("click", () => {
-    sonActif = !sonActif;
-    if (sonActif) {
-      const textes = [];
-      document.querySelectorAll("[data-traduction]").forEach((elem) => {
-        textes.push(elem.textContent.trim());
-      });
-      const utterance = new SpeechSynthesisUtterance(textes.join(". "));
-      const langueActive = document
-        .querySelector(".langues a.actif")
-        .textContent.trim();
-      if (langueActive === "EN") utterance.lang = "en-US";
-      else if (langueActive === "한국어") utterance.lang = "ko-KR";
-      else utterance.lang = "fr-FR";
-      window.speechSynthesis.speak(utterance);
-    } else {
-      window.speechSynthesis.cancel();
-    }
-  });
-}
+// if (btnSon) {
+//   btnSon.addEventListener("click", () => {
+//     sonActif = !sonActif;
+//     if (sonActif) {
+//       const textes = [];
+//       document.querySelectorAll("[data-traduction]").forEach((elem) => {
+//         textes.push(elem.textContent.trim());
+//       });
+//       const utterance = new SpeechSynthesisUtterance(textes.join(". "));
+//       const langueActive = document
+//         .querySelector(".langues a.actif")
+//         .textContent.trim();
+//       if (langueActive === "EN") utterance.lang = "en-US";
+//       else if (langueActive === "한국어") utterance.lang = "ko-KR";
+//       else utterance.lang = "fr-FR";
+//       window.speechSynthesis.speak(utterance);
+//     } else {
+//       window.speechSynthesis.cancel();
+//     }
+//   });
+// }
 
 btnSon.addEventListener("click", () => {
   sonActif = !sonActif;
