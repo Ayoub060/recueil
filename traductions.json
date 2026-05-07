@@ -121,5 +121,61 @@
       "back-map": "← 지도로 돌아가기",
       "skip": "영상 건너뛰기 →"
     }
+  },
+  "text-residents": {
+    "fr": {
+      "title": "Recueil - Résidents : détails",
+      "link-home": "Accueil",
+      "link-map": "Carte",
+      "map-details": "Les résidents du village",
+      "h1": "Les résidents du village",
+      "btn-experience": "Voir la capsule documentaire",
+      "details-title-1": "Un premier contact...",
+      "paragraph-1": "Dans le village de Sannae, les résidents sont curieux, enclins au dialogue envers nous.",
+      "paragraph-2": "Des questions sur notre venue fusent, des sourires et quelques mots en anglais sont parfois échangés. Plusieurs habitants iront même jusqu’à nous raccompagner en voiture dans nos logements respectifs alors même que nous ne nous sommes vus qu’une seule fois.",
+      "paragraph-3": "Nos hôtes, ouvertes au dialogue à la fois en anglais et en coréen, sont partantes pour des interviews improvisées.",
+      "details-title-2": "...devenu régulier",
+      "paragraph-4": "Certains habitants deviendront même des rencontres quotidiennes.",
+      "paragraph-5": "Nous pouvons les apercevoir au détour d’une allée, à un endroit donné, à une heure précise. D’autres fois, c’est en voiture qu’ils nous reconnaissent comme le pasteur que nous avions seulement eu au téléphone qui nous a reconnu uniquement avec le matériel audiovisuel que nous portions.",
+      "paragraph-6": "Il arrive aussi que lors du tournage, les résidents du village parlent d’autres habitants qui seront, à leur tour, interviewés.",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
+    },
+    "en": {
+      "title": "Harvest - Residents : details",
+      "link-home": "Home",
+      "link-map": "Map",
+      "map-details": "The village residents",
+      "h1": "The village residents",
+      "btn-experience": "Watch the documentary capsule",
+      "details-title-1": "A first contact...",
+      "paragraph-1": "In the village of Sannae, the residents are curious and eager to talk with us.",
+      "paragraph-2": "Questions about our visit arise, smiles and a few words in English are sometimes shared. Some locals even go as far as driving us back to our respective accommodations, even though we have only met once.",
+      "paragraph-3": "Our hosts, open to dialogue in both English and Korean, are ready to participate in impromptu interviews.",
+      "details-title-2": "...becoming a regular occurrence",
+      "paragraph-4": "Some of the residents will even become part of our daily routine.",
+      "paragraph-5": "We can spot them around a corner, at a given place, at a specific time. Other times,  they recognize us from their cars like the pastor we had only spoken to over the phone, who identified us solely by the audiovisual equipment we were carrying",
+      "paragraph-6": "It also happens that during filming, the village residents mention other inhabitants who will become our next interviewees.",
+      "about": "About",
+      "legal-notices": "Legal notices"
+    },
+    "kr": {
+      "title": "그물코 - 주민들 : 세부 정보",
+      "link-home": "홈",
+      "link-map": "지도",
+      "map-details": "마을 주민들",
+      "h1": "마을 주민들",
+      "btn-experience" : "다큐멘터리 캡슐 보기",
+      "details-title-1": "첫 만남...",
+      "paragraph-1": "산내 마을에서는 주민들이 호기심이 많고 우리와 대화하기를 열망합니다.",
+      "paragraph-2": "우리의 방문에 대한 질문이 나오고, 때로는 미소와 몇 마디 영어가 공유됩니다. 일부 현지인들은 우리가 한 번 만났음에도 불구하고 우리를 각자의 숙소까지 태워다 주기도 합니다.",
+      "paragraph-3": "영어와 한국어 모두로 대화에 열려 있는 우리의 호스트들은 즉석 인터뷰에 참여할 준비가 되어 있습니다.",
+      "details-title-2": "...일상이 되다",
+      "paragraph-4": "일부 주민들은 심지어 우리의 일상적인 일부분이 되기도 합니다.",
+      "paragraph-5": "우리는 그들을 모퉁이, 특정 장소, 특정 시간에 볼 수 있습니다. 다른 때에는, 그들은 우리가 전화로만 이야기했던 목사님처럼 우리를 차에서 알아보기도 합니다. 그는 우리가 들고 있던 시청각 장비만으로 우리를 식별했습니다.",
+      "paragraph-6": "촬영 중에 마을 주민들이 다른 주민들을 언급하는 경우도 있습니다. 그들은 다음 인터뷰 대상이 됩니다.",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
   }
 }

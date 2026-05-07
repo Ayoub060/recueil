@@ -28,6 +28,10 @@ h5 {
   font-family: "Ovo", serif;
 }
 
+.coreen {
+  word-break: keep-all;
+}
+
 body {
   background-color: #f5fed7;
   color: #354523;
