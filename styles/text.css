@@ -113,11 +113,11 @@ footer {
 header.sur-hero .fil a,
 header.sur-hero .fil span,
 header.sur-hero .fil p,
-header.sur-hero .langues a,
+header.sur-hero .top-link,
 header.sur-hero .langues span {
   color: #f5fed7;
 }
 
-header.sur-hero .langues a::before {
+header.sur-hero .langues .top-link::before {
   background-color: #f5fed7;
 }

@@ -19,7 +19,9 @@
   <body>
     <header>
       <nav class="fil">
-        <a href="index.html" data-traduction="link-home">Accueil</a>
+        <a href="index.html" data-traduction="link-home" class="link"
+          >Accueil</a
+        >
         <span>></span>
         <span class="actif" data-traduction="map">Carte</span>
       </nav>
@@ -33,14 +35,17 @@
     </header>
 
     <main>
-      <img src="img/map-fr.jpg" alt="" class="map-img" />
-      <a href="player-residents.html" class="map-link map-link-residents"
-        ><img
-          src="img/map-residents.png"
-          data-traduction="alt-residents"
-          alt="En savoir plus sur les résidents du village"
-          class="map-link-img map-link-img-residents"
-      /></a>
+      <div class="map-container">
+        <img src="img/map-fr.jpg" alt="" class="map-img" />
+        <a href="player-residents.html" class="map-link map-link-residents">
+          <img
+            src="img/map-residents.png"
+            data-traduction="alt-residents"
+            alt="En savoir plus sur les résidents du village"
+            class="map-link-img map-link-img-residents"
+          />
+        </a>
+      </div>
     </main>
 
     <footer>
@@ -61,19 +66,39 @@
         >
       </div>
       <button class="son" id="btnSon">
-  <!-- Icône son actif (ondes) -->
-  <svg class="icon-son-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#354523" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
-    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
-  </svg>
-  <!-- Icône son muet (avec X) -->
-  <svg class="icon-son-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#354523" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-    <line x1="23" y1="9" x2="17" y2="15"/>
-    <line x1="17" y1="9" x2="23" y2="15"/>
-  </svg>
-</button>
+        <!-- Icône son actif (ondes) -->
+        <svg
+          class="icon-son-on"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+        <!-- Icône son muet (avec X) -->
+        <svg
+          class="icon-son-off"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
     </footer>
   </body>
 </html>

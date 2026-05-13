@@ -28,12 +28,30 @@
           >Les résidents du village</span
         >
       </nav>
-      <nav class="langues">
-        <a href="#" class="actif" onclick="changerLangue('fr', this)">FR</a>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button
+          href="#"
+          class="actif top-link langue"
+          onclick="changerLangue('fr', this)"
+        >
+          FR
+        </button>
         <span>/</span>
-        <a href="#" onclick="changerLangue('en', this)">EN</a>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('en', this)"
+        >
+          EN
+        </button>
         <span>/</span>
-        <a href="#" onclick="changerLangue('kr', this)">한국어</a>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('kr', this)"
+        >
+          한국어
+        </button>
       </nav>
     </header>
 

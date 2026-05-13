@@ -15,6 +15,12 @@ main {
   padding-top: var(--padding-main);
 }
 
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
 .map-img,
 .map-link,
 .map-link-img {
@@ -26,12 +32,12 @@ main {
 .map-link {
   position: absolute;
   z-index: 1;
-  top: 0;
 }
 
 .map-link-residents {
-  top: calc(23% + var(--padding-main));
-  left: 53%;
+  top: 31%;
+  left: 61%;
+  transform: translate(-50%, -50%);
   width: 16%;
   filter: grayscale(80%);
   transition: filter 0.2s ease-out;

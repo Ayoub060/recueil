@@ -73,7 +73,7 @@ function changerLangue(langue, el) {
   });
 
   document
-    .querySelectorAll(".langues a")
+    .querySelectorAll(".langues .top-link")
     .forEach((a) => a.classList.remove("actif"));
   el.classList.add("actif");
 
